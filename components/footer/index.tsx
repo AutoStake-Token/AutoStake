@@ -29,17 +29,6 @@ function Footer() {
                         )}
                     </div>
 
-                    <div tw="flex flex-col space-y-4">
-                        <span tw="text-2xl uppercase color[#f4003a] mb-4 md:mb-12 font-bold font-family[Bungee]">Important Links</span>
-                        {footerdata.map((data, index) =>
-                            <div tw="flex space-x-4 items-center" key={index}>
-                                <img tw="w-4" src="/assets/images/arrow.svg" alt="" />
-                                <Link href={data.link} >
-                                    <span tw="text-white text-base cursor-pointer"> {data.title} </span>
-                                </Link>
-                            </div>
-                        )}
-                    </div>
                 </div>
             </div>
 

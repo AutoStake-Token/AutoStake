@@ -36,7 +36,7 @@ function Hero() {
                             {address}
                         </div> */}
                         <span>Enter Wallet address to access mainframe</span>
-                        <div tw="flex items-center justify-center text-xl tracking-widest h-10 px-2   bg-black border border-gray-600">
+                        <div tw="flex items-center justify-center text-xl tracking-widest h-10 px-2 max-width[100%]  bg-black border border-gray-600">
                             <input tw="appearance-none outline-none bg-transparent text-center" type="text" />
                         </div>
                         <span>{loading}</span>
