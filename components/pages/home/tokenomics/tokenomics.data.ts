@@ -1,18 +1,18 @@
 export const tokenomicsdata = [
     {
-        amount: "1,000,000",
+        amount: "1,000,000,000",
         figure: "total supply"
     },
     {
-        amount: "99.99%",
+        amount: "90%",
         figure: "presale allocation"
     },
     {
-        amount: "23%",
+        amount: "5%",
         figure: "dev wallet"
     },
     {
-        amount: "45%",
+        amount: "5%",
         figure: "marketing wallet"
     },
 ]
