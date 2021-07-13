@@ -9,7 +9,7 @@ function Tokenemoics() {
                 <div tw="flex px-8 flex-col text-center justify-center items-center space-y-8 lg:width[40%]">
                     <div>
                         <h2 tw="text-white text-5xl font-extrabold uppercase mb-8 font-family[Bungee]">Token <span tw="color[#f4003a]">Statistics</span></h2>
-                        <p tw="text-gray-400 text-sm tracking-widest "> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad voluptatem temporibus natus quisquam! Voluptates non eum, molestiae rerum numquam quos ipsa repudiandae nam sed voluptate placeat praesentium omnis amet, asperiores odit. Expedita fuga saepe tenetur soluta exercitationem ut adipisci molestias?</p>
+                        <p tw="text-gray-400 text-sm tracking-widest "> AutoStake is not a deflationary BSC token. It is a novel utility token and investment vehicle. Unlike HODL Token and other famous BSC projects which offer addtional BNB rewards to holders by essentially rugging their own LP and redistributing it, AutoStake takes the taxes collected and invests them into a PancakeSwap Syrup pool. The advantage is that while HODL Tokenomics will death spiral when volume is low (causing rewards to be low, lowering incentive to hold), the AutoStake pools will continue to provide rewards regardless of volume, and will always continue to grow and offer ever higher returns on investment (ROIs) for holders. We welcome you to the next generation of tokenomics.</p>
                     </div>
 
                     <div tw="flex md:w-full items-center justify-center flex-col ">
