@@ -13,8 +13,8 @@ export const featuresdata = [
         icon: "/assets/images/features/f3.png"
     },
     {
-        heading: "Fully Doxxed",
-        details: "Our team is fully doxxed, talented, and here to stay. A project is only as good as the team behind it.",
+        heading: "Scalability",
+        details: "Even though AutoStake ROI is not solely dependent on high volume, as volume increases, so does the rewards pool. Thus, Alleviating any issue in the Scalability."
         icon: "/assets/images/features/f4.png"
     },
 ]
