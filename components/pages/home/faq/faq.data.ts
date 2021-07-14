@@ -13,7 +13,7 @@ export const faqdata = [
     },
      {
         question: "How do you buy AutoStake?",
-        answer: "You can buy AutoStake on PancakeSwap using our Contract Address: 
+        answer: "You can buy AutoStake on PancakeSwap using our Contract Address: https://bscscan.com/address/0x84925E218604F238fc092baf7BB2AaE8124Ed13C
     },
         
 ]
