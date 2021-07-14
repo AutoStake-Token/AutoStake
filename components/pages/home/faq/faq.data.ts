@@ -11,5 +11,13 @@ export const faqdata = [
         question: "How do you get your reward?",
         answer: "You do not need claim your rewards, your rewards are sent to your wallet where you keep your AutoStake Tokens. So there is no risk that you will miss your dividend. The distribution takes place in different instances depending on the Mining Station."
     },
+     {
+        question: "How do you buy AutoStake?",
+        answer: "You can buy AutoStake on PancakeSwap using our Contract Address: 
+    },
+     {
+        question: "How do you get your reward?",
+        answer: "You do not need claim your rewards, your rewards are sent to your wallet where you keep your AutoStake Tokens. So there is no risk that you will miss your dividend. The distribution takes place in different instances depending on the Mining Station."
+    },
 
 ]
