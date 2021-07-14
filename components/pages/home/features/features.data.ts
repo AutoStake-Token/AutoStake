@@ -8,8 +8,8 @@ export const featuresdata = [
         details: "AutoStake invests in PancakeSwap syrup pools and passes the rewards on to you, with an added bonus!"
     },
     {
-        heading: "Volume Independent",
-        details: "High volume or no volume, your rewards from the staking pool can only increase. No HODL-style volume death.",
+        heading: "Community Is Everything",
+        details: "Our team is 100% dedicated to the success of the project. We expect our community to work hand in hand to bring AutoStake to its maximum potential.",
         icon: "/assets/images/features/f3.png"
     },
     {
