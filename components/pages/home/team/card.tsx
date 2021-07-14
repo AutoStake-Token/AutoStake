@@ -11,7 +11,7 @@ function Team({ data }) {
             </div>
 
             <div tw="flex flex-col items-center space-y-4 py-4 w-full">
-                <h2 tw="text-3xl color[#f4003a] font-bold uppercase font-family[Bungee]">{data.name}</h2>
+                <h2 tw="text-2xl color[#f4003a] font-bold uppercase font-family[Bungee]">{data.name}</h2>
                 <div tw="height[0.6px] opacity-20 bg-gray-400 w-full"></div>
                 <div tw="text-white flex flex-col items-center text-sm">
                     <span >{data.role}</span>

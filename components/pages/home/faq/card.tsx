@@ -41,8 +41,9 @@ function Card({ data }) {
             </div>
 
             {/* bottom para */}
-            {expanded && <span tw=" py-10 px-4 font-medium text-gray-400">
+            {expanded && <span tw="flex flex-col py-10 px-4 font-medium text-gray-400">
                 {data.answer}
+                {/* {data.link && <span>{data.link}</span>} */}
             </span>}
 
         </div >

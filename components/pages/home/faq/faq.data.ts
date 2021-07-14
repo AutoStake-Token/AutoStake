@@ -11,9 +11,14 @@ export const faqdata = [
         question: "How do you get your reward?",
         answer: "You do not need claim your rewards, your rewards are sent to your wallet where you keep your AutoStake Tokens. So there is no risk that you will miss your dividend. The distribution takes place in different instances depending on the AutoStake Depot."
     },
-     {
+    {
         question: "How do you buy AutoStake?",
-        answer: "You can buy AutoStake on PancakeSwap using our Contract Address: https://bscscan.com/address/0x84925E218604F238fc092baf7BB2AaE8124Ed13C
+        answer: "You can buy AutoStake on PancakeSwap using our Contract Address: 0x84925E218604F238fc092baf7BB2AaE8124Ed13C",
+        link: "https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x84925E218604F238fc092baf7BB2AaE8124Ed13C"
     },
-        
+    {
+        question: "Is the contract audited?",
+        answer: "Yes, the contract is audited by Techrate.",
+        link: ""
+    },
 ]

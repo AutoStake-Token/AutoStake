@@ -14,7 +14,9 @@ function Tokenemoics() {
 
                     <div tw="flex md:w-full items-center justify-center flex-col ">
                         <div tw=" background-color[#f4003a] text-white text-xl font-semibold rounded-full px-2 md:px-6  py-2">
-                            Contract: https://bscscan.com/address/0x84925E218604F238fc092baf7BB2AaE8124Ed13C
+                            <a href="https://bscscan.com/address/0x84925E218604F238fc092baf7BB2AaE8124Ed13C">
+                                View Contract
+                            </a>
                         </div>
                     </div>
 
