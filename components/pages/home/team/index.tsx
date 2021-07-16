@@ -4,7 +4,7 @@ import Card from './card'
 
 function Team() {
     return (
-        <div tw="relative">
+        <div tw="relative" id="team">
             <div className="ellips"></div>
             <div tw="flex  flex-col h-full items-center justify-between relative background-color[#121111] py-12 md:py-32">
                 <span tw="text-4xl md:text-5xl px-2 uppercase font-bold text-white font-family[Bungee] mb-36">Team member</span>

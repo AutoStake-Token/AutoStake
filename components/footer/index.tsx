@@ -11,7 +11,9 @@ function Footer() {
                 <div tw="flex flex-col-reverse md:flex-row md:items-center justify-center py-8 space-y-12 md:space-y-0 md:space-x-24 px-8 md:px-24 h-full w-full bg-black bg-opacity-80">
                     <div tw="md:width[620px] flex flex-col space-y-12 items-center pt-8">
                         <img tw="md:width[400px]" src="/assets/images/autostake_light.svg" alt="" />
-                        <p tw="text-white text-sm text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum earum nihil voluptatum nemo officiis ea doloribus a commodi vel numquam quod eligendi, cumque obcaecati distinctio atque. Quibusdam doloremque optio deserunt veritatis id. Culpa, libero odio iste blanditiis voluptas necessitatibus corporis.</p>
+                        <p tw="text-white text-sm text-center">Trading cryptocurrencies carries a high level of risk, and may not be suitable for all investors. Before deciding to trade cryptocurrency you should carefully consider your investment objectives, level of experience, and risk appetite. You should be aware of all the risks associated with cryptocurrency trading. Please trade wisely!
+                            <br /> -AutoStake Team
+                        </p>
                         {/* Social Icon */}
                         <Social />
                     </div>
@@ -22,9 +24,9 @@ function Footer() {
                         {footerdata.map((data, index) =>
                             <div tw="flex space-x-4 items-center" key={index}>
                                 <img tw="w-4" src="/assets/images/arrow.svg" alt="" />
-                                <Link href={data.link} >
+                                <a href={data.link} >
                                     <span tw="text-white text-base cursor-pointer"> {data.title} </span>
-                                </Link>
+                                </a>
                             </div>
                         )}
                     </div>

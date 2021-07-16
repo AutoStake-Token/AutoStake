@@ -9,19 +9,19 @@ export const teamsdata = [
         name: "Gavin McKenna",
         role: "Co-Founder & CMO",
         email: "gavin@gmail.com",
-        picture: "eric"
+        picture: "silhouette"
     },
     {
         name: "Ragnar Schultz",
         role: "Lead Developer",
         email: "ragnar@gmail.com",
-        picture: "eric"
+        picture: "silhouette"
     },
     {
         name: "Shahadat Kauser",
         role: "Asst. Developer",
         email: "shahadat@gmail.com",
-        picture: "eric"
+        picture: "silhouette"
     },
 
 ]

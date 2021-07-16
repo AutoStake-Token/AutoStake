@@ -12,15 +12,15 @@ function Card({ data, index }) {
                         <span tw="text-sm text-white z-10 font-bold color[#f4003a]">{data.year}</span>
 
                     </div>
-                    <div tw="flex flex-col space-y-2 px-4 ">
+                    <div tw="flex flex-col space-y-2 px-1 ">
                         < h2 tw="text-xl uppercase font-bold color[#f4003a]" >{data.month} {data.year}</h2 >
-                        <span tw="text-sm md:text-2xl font-extrabold text-white">{data.event}</span>
+                        <span tw="text-sm md:text-2xl whitespace-nowrap font-extrabold text-white">{data.event}</span>
                     </div >
                 </div> :
                 // left align
                 <div tw="flex items-center justify-end md:margin-right[40%]" >
 
-                    <div tw="flex flex-col items-end space-y-2 px-4 ">
+                    <div tw="flex flex-col items-end space-y-2 px-1 ">
                         < h2 tw="text-xl uppercase font-bold color[#f4003a]" >{data.month} {data.year}</h2 >
                         <span tw="text-sm md:text-2xl font-extrabold text-white">{data.event}</span>
                     </div >

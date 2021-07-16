@@ -4,7 +4,7 @@ import Feature from './feature'
 
 function Features() {
     return (
-        <div tw="relative">
+        <div tw="relative" id="about">
             <div className="ellips"></div>
             <div tw="flex flex-col items-center justify-center relative background-color[#121111] py-12 md:py-32  px-8">
                 <div tw=" flex flex-col items-center justify-center mb-12  md:col-span-2 row-start-1 md:(col-start-2 row-start-1) text-4xl md:text-6xl font-family[Bungee] font-extrabold uppercase">

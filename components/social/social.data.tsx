@@ -1,18 +1,10 @@
 export const socialdata = [
     {
-        name: "facebook",
-        link: "/"
+        name: "telegram",
+        link: "https://t.me/autostakeofficial"
     },
     {
         name: "twitter",
-        link: "/"
+        link: "https://twitter.com/stakeauto"
     },
-    {
-        name: "youtube",
-        link: "/"
-    },
-    {
-        name: "linkedin",
-        link: "/"
-    }
 ]
