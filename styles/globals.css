@@ -22,7 +22,7 @@ a {
   src: url("/assets/fonts/bungee.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
-  font-display: auto;
+  font-display: swap;
 }
 
 @font-face {
@@ -30,7 +30,7 @@ a {
   src: url("/assets/fonts/montserrat.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
-  font-display: auto;
+  font-display: swap;
 }
 
 @font-face {
@@ -38,7 +38,7 @@ a {
   src: url("/assets/fonts/allerta.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
-  font-display: auto;
+  font-display: swap;
 }
 
 

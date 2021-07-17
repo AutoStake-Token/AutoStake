@@ -5,14 +5,14 @@ export const navdata = [
     },
     {
         title: "About Us",
-        link: "/about"
+        link: "#about"
     },
     {
         title: "Team Member",
-        link: "/team"
+        link: "#team"
     },
     {
         title: "Contact Us",
-        link: "/contact"
+        link: "mailto: autostakeofficial@protonmail.com"
     },
 ]
