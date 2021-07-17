@@ -13,12 +13,11 @@ function Info({ address, setOpenPopup }) {
         const url = "https://api.bscscan.com/api?module=account&action=tokenbalance&contractaddress=" + process.env.NEXT_PUBLIC_CONTRACT + "&address=" + address + "&tag=latest&apikey=" + process.env.NEXT_PUBLIC_API
         const res = await fetch(url)
         const data = await res.json()
-        console.log(url)
-        console.log(data)
         setBalance(data.result)
         if (data.status == 0) { setIsError(true) }
         setIsLoading(false)
     }
+    const shortAdd = address.substr(0, 6) + "..." + address.substr(36, 41)
     return (
         <div className="gradient" tw=" relative flex w-full max-w-3xl h-3/4 flex-col py-4 items-center space-y-8 text-left bg-gray-900 text-white font-bold text-lg opacity-100 border-4 rounded-xl border-black " >
             <div>
@@ -33,7 +32,7 @@ function Info({ address, setOpenPopup }) {
                     : <div tw="flex items-start w-full px-4 flex-col space-y-6">
                         <div tw="flex flex-col">
                             <span tw="text-2xl text-red-400">Address:</span>
-                            <span tw="font-semibold text-gray-400"> {address}</span>
+                            <span tw="font-semibold text-gray-400"> {shortAdd}</span>
                         </div>
 
                         <div tw="flex flex-col">
