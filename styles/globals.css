@@ -41,6 +41,42 @@ a {
   font-display: swap;
 }
 
+/* @font-face {
+  font-family: 'SourceCode';
+  src: url("/assets/fonts/SourceCode/SourceCodePro-Regular.ttf") format('truetype') font-weight-normal,
+       url("/assets/fonts/SourceCode/SourceCodePro-Bold.ttf") format('truetype') font-weight-bold,
+       url("/assets/fonts/SourceCode/SourceCodePro-SemiBold.ttf") format('truetype') font-weight-semibold;
+  font-display: swap;
+} */
+@font-face {
+  font-family: 'SourceCode';
+  src:url("/assets/fonts/SourceCode/SourceCodePro-Bold.ttf") format('truetype');
+  font-weight:700;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SourceCode';
+  src:url("/assets/fonts/SourceCode/SourceCodePro-SemiBold.ttf") format('truetype');
+  font-weight:600;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'SourceCode';
+  src: url("/assets/fonts/SourceCode/SourceCodePro-Regular.ttf") format('truetype');
+  font-weight:400;
+  font-display: swap;
+}
+
+.text-glow{
+  text-shadow: 0 0 34px rgba(127, 193, 127, 0.54);
+}
+
+.box-glow{
+  box-shadow: 0 0 6px 0 rgba(127, 193, 127, 0.33);
+}
+
+
+
 
 .ellips {
      border-radius: 50%;

@@ -13,8 +13,7 @@ export const faqdata = [
     },
     {
         question: "How do you buy AutoStake?",
-        answer: "You can buy AutoStake on PancakeSwap using our Contract Address: 0x84925E218604F238fc092baf7BB2AaE8124Ed13C",
-        link: "https://exchange.pancakeswap.finance/#/swap?outputCurrency=0x84925E218604F238fc092baf7BB2AaE8124Ed13C"
+        answer: "You can buy AutoStake on PancakeSwap using our Contract Address",
     },
     {
         question: "Is the contract audited?",

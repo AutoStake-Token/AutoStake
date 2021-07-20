@@ -23,29 +23,29 @@ function Hero() {
     const [loading, setLoading] = useState("")
     const [showPopup, setShowPopup] = useState(false)
     return (
-        <div tw="height[100vh] min-height[840x] w-full bg-cover background-image[url('/assets/images/bg.png')] font-family[bungee] ">
-            <div tw="flex items-center justify-evenly h-full w-full flex-col bg-black bg-opacity-80">
-                {/* <img tw=" px-4 md:(width[500px] static)  top-16 z-10 md:mb-8" src="/assets/images/autostake_light.svg" alt="" /> */}
+        <div tw="height[100vh] w-full ">
+            <div tw="flex items-center justify-center  relative w-full h-full" >
+                <video tw="w-full h-full absolute inset-0 object-cover" autoPlay muted loop>
+                    <source src="/assets/videos/heroani.mp4" type="video/mp4" />
+                </video>
+                <div tw="z-10 px-6 md:px-12 py-24 h-full w-full">
+                    <div tw="flex items-center justify-center text-2xl font-bold md:text-4xl border-t-4 border-b-4 border-color[#3c5a3c] h-full w-full">
+                        <div tw="flex flex-col space-y-12 bg-black bg-opacity-90 px-4 md:px-8 py-12">
+                            <div tw="flex flex-col space-y-4">
+                                <span className="text-glow" tw="color[#3c5a3c]">access mainframe</span>
+                                <span className="text-glow" tw="color[#7fc17f]">enter wallet address</span>
+                            </div>
+                            <div tw="flex color[#7fc17f] space-x-4 py-4 items-center">
+                                {/* <div tw="w-4 h-12 background-color[#7fc17f] animate-pulse"></div> */}
+                                <input tw="appearance-none caret-color[#7fc17f] outline-none border-b border-color[#7fc17f] bg-transparent " type="text" onChange={(e) => { setAddress(e.target.value) }} />
 
-                {/* Vault  */}
-                <div tw="flex flex-1 md:flex[1] w-full items-center justify-center relative bg-center  md:(width[900px] height[900px] rounded-full bg-cover) background-image[url('/assets/images/vaultv2.png')] sm:background-image[url('/assets/images/vaultv2.png')]">
-
-                    <div tw=" flex flex-col space-y-6 items-center  justify-center rounded-full  md:p-16 p-8 text-center max-w-full width[400px] height[400px] md:(width[450px] height[450px]) uppercase font-extrabold text-2xl text-white">
-                        {/* <span>Access System</span>
-                        <div tw="h-10 overflow-hidden  flex items-center justify-center text-xl tracking-widest  bg-black border border-gray-600">
-                            {address}
-                        </div> */}
-                        <span>Enter Wallet address to access mainframe</span>
-                        <div tw="flex items-center justify-center text-lg tracking-widest h-10 px-2 max-width[100%]  bg-black border border-gray-600">
-                            <input tw="appearance-none outline-none bg-transparent text-center" type="text" onChange={(e) => { setAddress(e.target.value) }} />
+                                <svg xmlns="http://www.w3.org/2000/svg" tw="h-8 cursor-pointer hover:color[#3c5a3c]" viewBox="0 0 20 20" fill="currentColor">
+                                    <path fillRule="evenodd" d="M10.293 15.707a1 1 0 010-1.414L14.586 10l-4.293-4.293a1 1 0 111.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clipRule="evenodd" />
+                                    <path fillRule="evenodd" d="M4.293 15.707a1 1 0 010-1.414L8.586 10 4.293 5.707a1 1 0 011.414-1.414l5 5a1 1 0 010 1.414l-5 5a1 1 0 01-1.414 0z" clipRule="evenodd" />
+                                </svg>
+                            </div>
                         </div>
-                        <span>{loading}</span>
-                        <button tw=" w-16 h-16 bg-center  background-image[url('/assets/images/button.png')] appearance-none" onClick={handleClick} className="depth" type="button">
-                            {/* <img src="/assets/images/button.svg" alt="" /> */}
-
-                        </button>
                     </div>
-
                 </div>
             </div>
             <Popup toggle={showPopup} setToggle={setShowPopup}>
@@ -56,3 +56,8 @@ function Hero() {
 }
 
 export default Hero
+
+
+// <div tw="flex items-center justify-center text-lg tracking-widest h-10 px-2 max-width[100%]  bg-black border border-gray-600">
+//                             <input tw="appearance-none outline-none bg-transparent text-center" type="text" onChange={(e) => { setAddress(e.target.value) }} />
+//                         </div>

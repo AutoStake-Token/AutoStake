@@ -4,15 +4,27 @@ export const navdata = [
         link: "/"
     },
     {
-        title: "About Us",
-        link: "#about"
+        title: "Stats",
+        link: "#stats"
     },
     {
-        title: "Team Member",
+        title: "Whitelist",
+        link: "#whitelist"
+    },
+    {
+        title: "Roadmap",
+        link: "#roadmap"
+    },
+    {
+        title: "FAQ",
+        link: "#faq"
+    },
+    {
+        title: "Team",
         link: "#team"
     },
     {
         title: "Contact Us",
-        link: "mailto: autostakeofficial@protonmail.com"
+        link: "mailto: autostakeofficial@protonmail.com "
     },
 ]
