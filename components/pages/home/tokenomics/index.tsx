@@ -9,17 +9,17 @@ function Tokenemoics() {
                 <div tw="flex px-8 flex-col justify-center items-center space-y-8 lg:width[40%]">
                     <div>
                         <div tw="flex items-start">
-                            <span tw="text-xl color[#7fc17f] mr-4 ">02</span>
-                            <h2 className="text-glow" tw="color[#7fc17f] text-5xl lg:text-7xl mb-8 ">Token Statistics</h2>
+                            <span tw="text-xl color[var(--green)] mr-4 ">02</span>
+                            <h2 className="text-glow" tw="color[var(--green)] text-5xl lg:text-7xl mb-8 ">Token Statistics</h2>
                         </div>
-                        <div tw="flex flex-col space-y-4 space-x-0 md:(flex-row space-x-8 space-y-0) color[#3c5a3c] ">
+                        <div tw="flex flex-col space-y-4 space-x-0 md:(flex-row space-x-8 space-y-0) color[var(--greenDark)] ">
                             <p tw=" text-sm tracking-widest "> AutoStake is not a deflationary BSC token. It is a novel utility token and investment vehicle. Unlike HODL Token and other famous BSC projects which offer addtional BNB rewards to holders by essentially rugging their own LP and redistributing it, AutoStake takes the taxes collected and invests them into a PancakeSwap Syrup pool. </p>
                             <p tw=" text-sm tracking-widest "> The advantage is that while HODL Tokenomics will death spiral when volume is low (causing rewards to be low, lowering incentive to hold), the AutoStake pools will continue to provide rewards regardless of volume, and will always continue to grow and offer ever higher returns on investment (ROIs) for holders. We welcome you to the next generation of tokenomics.</p>
                         </div>
                     </div>
 
                     <div tw="flex md:w-full items-start  flex-col ">
-                        <div className="text-glow box-glow" tw=" border border-color[#7fc17f]  color[#7fc17f]  text-3xl px-2 md:px-6  py-4">
+                        <div className="text-glow box-glow" tw=" border border-color[var(--green)]  color[var(--green)]  text-3xl px-2 md:px-6  py-4">
                             <a href="https://bscscan.com/address/0x84925E218604F238fc092baf7BB2AaE8124Ed13C">
                                 View Contract
                             </a>
@@ -39,11 +39,11 @@ function Tokenemoics() {
 
             <div id="whitelist" tw="flex flex-col  items-center px-8 py-32 w-full ">
                 <div tw="flex items-start">
-                    <span tw="text-xl color[#7fc17f] mr-4 ">03</span>
-                    <h2 className="text-glow" tw="color[#7fc17f] text-3xl lg:text-7xl  mb-20 "> Whitelist/Presale</h2>
+                    <span tw="text-xl color[var(--green)] mr-4 ">03</span>
+                    <h2 className="text-glow" tw="color[var(--green)] text-3xl lg:text-7xl  mb-20 "> Whitelist/Presale</h2>
                 </div>
                 <div tw="flex flex-col justify-center lg:(flex-row space-x-20 space-y-0) space-y-8 w-full">
-                    <div tw=" lg:text-2xl text-lg flex flex-col space-y-2 color[#3c5a3c]">
+                    <div tw=" lg:text-2xl text-lg flex flex-col space-y-2 color[var(--greenDark)]">
                         <div tw="flex items-center mb-4">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
@@ -74,7 +74,7 @@ function Tokenemoics() {
                         </div>
                     </div>
 
-                    <div tw="text-white lg:text-2xl text-lg flex flex-col  space-y-2 color[#3c5a3c]">
+                    <div tw="text-white lg:text-2xl text-lg flex flex-col  space-y-2 color[var(--greenDark)]">
                         <div tw="flex items-center mb-4">
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"

@@ -11,8 +11,8 @@ function Faq() {
         <div id="faq" tw="flex bg-cover min-h-screen  ">
             <div tw="flex flex-col flex-1 items-center space-y-12 justify-center  py-8 px-4 md:px-32">
                 <div tw="flex items-start">
-                    <span tw="text-xl color[#7fc17f] mr-4 ">05</span>
-                    <h1 className="text-glow" tw="text-3xl lg:text-7xl color[#7fc17f] text-center ">Frequently Asked Questions</h1>
+                    <span tw="text-xl color[var(--green)] mr-4 ">05</span>
+                    <h1 className="text-glow" tw="text-3xl lg:text-7xl color[var(--green)] text-center ">Frequently Asked Questions</h1>
                 </div>
                 <div tw="flex flex-col space-y-8  justify-center md:p-6 py-8 w-full  md:w-3/4">
 
@@ -21,7 +21,7 @@ function Faq() {
                     )}
 
                 </div>
-                <span className="box-glow text-glow" tw="border border-color[#7fc17f] color[#3c5a3c]  text-3xl  py-4 px-10 rounded-sm cursor-pointer" onClick={() => setShowPopup(true)}>Show Audit</span>
+                <span className="box-glow text-glow" tw="border border-color[var(--green)] color[var(--greenDark)]  text-3xl  py-4 px-10 rounded-sm cursor-pointer" onClick={() => setShowPopup(true)}>Show Audit</span>
             </div>
             <Popup toggle={showPopup} setToggle={setShowPopup}>
                 <Audit setOpenPopup={setShowPopup} />

@@ -17,8 +17,8 @@ function Nav() {
                 {navdata.map((data, index) =>
                     <a key={index} href={data.link} >
                         <span css={[
-                            tw`text-lg uppercase font-semibold color[#3c5a3c] cursor-pointer`,
-                            router.asPath == data.link && tw`color[#7fc17f]`
+                            tw`text-lg uppercase font-semibold color[var(--greenDark)] cursor-pointer`,
+                            router.asPath == data.link && tw`color[var(--green)]`
                         ]}>
                             {data.title}
                         </span>
