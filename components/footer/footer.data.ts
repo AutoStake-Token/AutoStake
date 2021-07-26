@@ -1,3 +1,15 @@
+export const footerdataLinks = [
+    {
+        title: "Telegram",
+        link: "https://www.t.me/autostakeofficial"
+    },
+    {
+        title: "Twitter",
+        link: "https://www.twitter.com/autostakeofficial"
+    }
+]
+
+
 export const footerdata = [
     {
         title: "Home",

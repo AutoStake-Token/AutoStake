@@ -24,8 +24,8 @@ function Hero() {
     const [showPopup, setShowPopup] = useState(false)
     return (
         <div tw="height[100vh] w-full ">
-            <div tw="flex items-center justify-center  relative w-full h-full" >
-                <video tw="w-full h-full absolute inset-0 object-cover" autoPlay muted loop>
+            <div tw="flex items-center justify-center   w-full h-full" >
+                <video tw="w-full h-full fixed inset-0 object-cover z-index[-10]" autoPlay muted loop>
                     <source src="/assets/videos/heroani.mp4" type="video/mp4" />
                 </video>
                 <div tw="z-10 px-6 md:px-12 py-24 h-full w-full">
@@ -57,7 +57,3 @@ function Hero() {
 
 export default Hero
 
-
-// <div tw="flex items-center justify-center text-lg tracking-widest h-10 px-2 max-width[100%]  bg-black border border-gray-600">
-//                             <input tw="appearance-none outline-none bg-transparent text-center" type="text" onChange={(e) => { setAddress(e.target.value) }} />
-//                         </div>

@@ -6,7 +6,10 @@ function Team() {
     return (
         <div tw="relative" id="team">
             <div tw="flex  flex-col h-full items-center justify-between relative color[#7fc17f]  py-24">
-                <span className="text-glow" tw="text-6xl text-center md:text-7xl px-2 mb-24">Team members</span>
+                <div tw="flex items-start">
+                    <span tw="text-xl color[#7fc17f] mr-4 ">06</span>
+                    <span className="text-glow" tw="text-6xl text-center md:text-7xl px-2 mb-24">Team members</span>
+                </div>
 
                 <div tw="grid  md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 grid-cols-1  gap-8 ">
                     {teamsdata.map((data, index) =>

@@ -11,7 +11,7 @@ function Nav() {
     return (
         <div tw=" md:flex z-30 flex-col md:flex-row items-center justify-between px-8 md:px-12 py-6 absolute w-full h-24">
             <div tw="flex-1">
-                <img tw=" md:(width[200px] h-20 static)" src="/assets/images/autostake_light.svg" alt="" />
+                <img tw=" md:(width[200px] h-20 static)" src="/assets/asred.svg" alt="" />
             </div>
             <div tw="xl:flex items-center justify-around  flex[3]  hidden  ">
                 {navdata.map((data, index) =>

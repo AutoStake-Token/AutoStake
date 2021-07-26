@@ -17,19 +17,31 @@ function Card({ data }) {
                     expanded && tw` background-color[#]`
                 ]}>
                 <div tw="flex w-full items-center space-x-4">
-                    <span tw="color[#7fc17f] text-2xl" >[?]</span>
-                    <h2 tw="text-xl lg:text-2xl text-left w-full font-bold color[#3c5a3c]">{data.question}</h2>
+                    <span tw="color[var(--red)] text-2xl" >[?]</span>
+                    <h2 tw="text-xl lg:text-2xl text-left w-full font-bold color[var(--redDark)]">{data.question}</h2>
                 </div>
 
 
                 <div
                     css={[
-                        tw`w-6 cursor-pointer fill-current color[#7fc17f] transform -rotate-45`,
-                        expanded && tw` rotate-45`
+                        tw`w-6 cursor-pointer fill-current color[#7fc17f] transform -rotate-180`,
+                        expanded && tw` -rotate-90`
                     ]}
                     onClick={() => setExpanded(!expanded)}>
-                    <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M7 16l-4-4m0 0l4-4m-4 4h18" />
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="25"
+                        height="25"
+                        viewBox="0 0 25 25"
+                    >
+                        <g fill="none" fillRule="evenodd" stroke="none" strokeWidth="1">
+                            <g stroke="#7FC17F" strokeWidth="2" transform="translate(-725 -5658)">
+                                <g transform="rotate(-135 1545.634 2688.384)">
+                                    <path d="M-1.13703805e-13 6.93959961L8.1932226 15.1328222 16.3864452 6.93959961"></path>
+                                    <path d="M8.193 15.133L8.193 0"></path>
+                                </g>
+                            </g>
+                        </g>
                     </svg>
                 </div>
 
