@@ -1,14 +1,38 @@
+export const footerdataLinks = [
+    {
+        title: "Telegram",
+        link: "https://www.t.me/autostakeofficial"
+    },
+    {
+        title: "Twitter",
+        link: "https://www.twitter.com/autostakeofficial"
+    }
+]
+
+
 export const footerdata = [
     {
         title: "Home",
         link: "#"
     },
     {
-        title: "About Us",
-        link: "#about"
+        title: "Stats",
+        link: "#stats"
     },
     {
-        title: "Team Member",
+        title: "Whitelist",
+        link: "#whitelist"
+    },
+    {
+        title: "Roadmap",
+        link: "#roadmap"
+    },
+    {
+        title: "FAQ",
+        link: "#faq"
+    },
+    {
+        title: "Team",
         link: "#team"
     },
     {

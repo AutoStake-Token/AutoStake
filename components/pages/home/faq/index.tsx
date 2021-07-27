@@ -8,18 +8,20 @@ import Audit from '../../../audit'
 function Faq() {
     const [showPopup, setShowPopup] = useState(false)
     return (
-        <div tw="flex bg-cover min-h-screen  background-image[url('/assets/images/stars2.jpg')]">
-            <div tw="flex flex-col flex-1 items-center space-y-12 justify-center bg-black bg-opacity-90 py-8 px-4 md:px-32">
-
-                <h1 tw="text-4xl text-white uppercase text-center font-bold font-family[Bungee]">Frequently asked questions</h1>
-
+        <div id="faq" tw="flex bg-cover min-h-screen  ">
+            <div tw="flex flex-col flex-1 items-center space-y-12 justify-center  py-8 px-4 md:px-32">
+                <div tw="flex items-start">
+                    <span tw="text-xl color[var(--green)] mr-4 ">05</span>
+                    <h1 className="text-glow" tw="text-4xl lg:text-7xl color[var(--green)] md:text-center ">Frequently Asked Questions</h1>
+                </div>
                 <div tw="flex flex-col space-y-8  justify-center md:p-6 py-8 w-full  md:w-3/4">
+
                     {faqdata.map((feature, index) =>
                         <Card data={feature} key={index} />
                     )}
 
                 </div>
-                <span tw="text-white text-3xl font-bold font-family[Bungee] uppercase p-6 background-color[#f4003a] rounded-sm cursor-pointer" onClick={() => setShowPopup(true)}>Show Audit</span>
+                <span className="box-glow text-glow" tw="border border-color[var(--green)] color[var(--greenDark)]  text-3xl  py-4 px-10 rounded-sm cursor-pointer" onClick={() => setShowPopup(true)}>Show Audit</span>
             </div>
             <Popup toggle={showPopup} setToggle={setShowPopup}>
                 <Audit setOpenPopup={setShowPopup} />
