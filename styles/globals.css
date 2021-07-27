@@ -10,8 +10,8 @@ body {
 :root {
   --green: #7fc17f;
   --greenDark: #3c5a3c;
-  --blue: #4481C6;
-  --blueDark: #2F5B8D;
+  --white: #dbd6c6;
+  --whiteDark: #9f9d96;
   --red: #E55C73;
   --redDark: #94333F;
 }
@@ -24,29 +24,7 @@ a {
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "Bungee";
-  src: url("/assets/fonts/bungee.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
 
-@font-face {
-  font-family: "Montserrat";
-  src: url("/assets/fonts/montserrat.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Allerta";
-  src: url("/assets/fonts/allerta.ttf") format("truetype");
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-}
 
 /* @font-face {
   font-family: 'SourceCode';

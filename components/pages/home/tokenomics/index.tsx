@@ -10,7 +10,7 @@ function Tokenemoics() {
                     <div>
                         <div tw="flex items-start">
                             <span tw="text-xl color[var(--green)] mr-4 ">02</span>
-                            <h2 className="text-glow" tw="color[var(--green)] text-5xl lg:text-7xl mb-8 ">Token Statistics</h2>
+                            <h2 className="text-glow" tw="color[var(--green)] text-4xl lg:text-7xl mb-8 ">Token Statistics</h2>
                         </div>
                         <div tw="flex flex-col space-y-4 space-x-0 md:(flex-row space-x-8 space-y-0) color[var(--greenDark)] ">
                             <p tw=" text-sm tracking-widest "> AutoStake is not a deflationary BSC token. It is a novel utility token and investment vehicle. Unlike HODL Token and other famous BSC projects which offer addtional BNB rewards to holders by essentially rugging their own LP and redistributing it, AutoStake takes the taxes collected and invests them into a PancakeSwap Syrup pool. </p>
@@ -53,7 +53,7 @@ function Tokenemoics() {
                                 tw="transform rotate-90 "
                             >
                                 <g fill="none" fillRule="evenodd" stroke="none" strokeWidth="1">
-                                    <g stroke="#4481C6" strokeWidth="2" transform="translate(-725 -5658)">
+                                    <g stroke="var(--white)" strokeWidth="2" transform="translate(-725 -5658)">
                                         <g transform="rotate(-135 1545.634 2688.384)">
                                             <path d="M-1.13703805e-13 6.93959961L8.1932226 15.1328222 16.3864452 6.93959961"></path>
                                             <path d="M8.193 15.133L8.193 0"></path>
@@ -61,9 +61,9 @@ function Tokenemoics() {
                                     </g>
                                 </g>
                             </svg>
-                            <span tw="text-2xl color[var(--blue)] text-center lg:text-3xl ">Shill whitelist: </span>
+                            <span tw="text-2xl color[var(--white)] text-center lg:text-3xl ">Shill whitelist: </span>
                         </div>
-                        <span tw="text-3xl lg:text-5xl color[var(--blueDark)]"> 50,000,000 (5%)</span>
+                        <span tw="text-3xl lg:text-5xl color[var(--whiteDark)]"> 50,000,000 (5%)</span>
                         <div tw="flex flex-col space-y-4">
                             <span tw="text-2xl block">
                                 ⁃ 1 BNB = 500,000 AutoStake
@@ -84,7 +84,7 @@ function Tokenemoics() {
                                 tw="transform rotate-90"
                             >
                                 <g fill="none" fillRule="evenodd" stroke="none" strokeWidth="1">
-                                    <g stroke="#4481C6" strokeWidth="2" transform="translate(-725 -5658)">
+                                    <g stroke="var(--white)" strokeWidth="2" transform="translate(-725 -5658)">
                                         <g transform="rotate(-135 1545.634 2688.384)">
                                             <path d="M-1.13703805e-13 6.93959961L8.1932226 15.1328222 16.3864452 6.93959961"></path>
                                             <path d="M8.193 15.133L8.193 0"></path>
@@ -92,9 +92,9 @@ function Tokenemoics() {
                                     </g>
                                 </g>
                             </svg>
-                            <span tw="text-2xl color[var(--blue)]  lg:text-3xl ">Presale: </span>
+                            <span tw="text-2xl color[var(--white)]  lg:text-3xl ">Presale: </span>
                         </div>
-                        <span tw="text-3xl lg:text-5xl color[var(--blueDark)]"> 500,000,000 (50%)</span>
+                        <span tw="text-3xl lg:text-5xl color[var(--whiteDark)]"> 500,000,000 (50%)</span>
                         <div tw="flex flex-col space-y-4">
                             <span tw="text-2xl">
                                 ⁃ 1 BNB = 500,000 AutoStake

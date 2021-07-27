@@ -12,7 +12,7 @@ function Faq() {
             <div tw="flex flex-col flex-1 items-center space-y-12 justify-center  py-8 px-4 md:px-32">
                 <div tw="flex items-start">
                     <span tw="text-xl color[var(--green)] mr-4 ">05</span>
-                    <h1 className="text-glow" tw="text-3xl lg:text-7xl color[var(--green)] text-center ">Frequently Asked Questions</h1>
+                    <h1 className="text-glow" tw="text-4xl lg:text-7xl color[var(--green)] md:text-center ">Frequently Asked Questions</h1>
                 </div>
                 <div tw="flex flex-col space-y-8  justify-center md:p-6 py-8 w-full  md:w-3/4">
 
