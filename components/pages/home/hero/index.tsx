@@ -25,7 +25,7 @@ function Hero() {
     return (
         <div tw="height[100vh] w-full ">
             <div tw="flex items-center justify-center   w-full h-full" >
-                <video tw="w-full h-full fixed inset-0 object-cover z-index[-10]" autoPlay playsinline muted loop>
+                <video tw="w-full h-full fixed inset-0 object-cover z-index[-10] bg-cover background-image[url(/assets/images/bg.jpg)]" autoPlay playsInline muted loop>
                     <source src="/assets/videos/heroani.mp4" type="video/mp4" />
                 </video>
                 <div tw="z-10 px-6 md:px-12 py-24 h-full w-full">
