@@ -6,7 +6,7 @@ export const featuresdata = [
     },
     {
         heading: "Community",
-        details: "But, a token is nothing without the community. The team will do everything we can, but we need an active and dedicated community to ensure our products success. If you invest in Rebased, be sure to tell your friends and help promote. Without this, we cannot succeed.",
+        details: "A token is nothing without the community. The team will do everything we can, but we need an active and dedicated community to ensure our products success. If you invest in Rebased, be sure to tell your friends and help promote. Without this, we cannot succeed.",
         icon: "/assets/images/features/3.png"
     },
     {
