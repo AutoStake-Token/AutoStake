@@ -47,8 +47,8 @@ function Hero() {
               analysis standpoint; a rebased token is every traders wet dream!
             </p>
             <div tw="flex items-start mt-12 w-full">
-              <div tw="flex items-center justify-center px-8 py-2 border-2 border-color[var(--green)]">
-                Join Telegram
+              <div tw="flex items-center justify-center px-8 py-2 cursor-pointer border-2 border-color[var(--green)]">
+                <a href="https://t.me/ReBasedd">Join Telegram</a>
               </div>
             </div>
           </div>
