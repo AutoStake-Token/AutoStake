@@ -36,7 +36,7 @@ function Hero() {
             <h1 tw="text-3xl lg:text-6xl font-bold mb-12">
               What is a “ReBased” token?
             </h1>
-            <p tw="">
+            <p tw="color[var(--greenDark)] ">
               A rebase (or price elastic) token is designed in a way that the
               circulating supply of a token is not fixed. The supply can be
               increased or decreased automatically by the contract. Enabling the
@@ -46,9 +46,21 @@ function Hero() {
               continual bullish price action on the chart. From a technical
               analysis standpoint; a rebased token is every traders wet dream!
             </p>
-            <div tw="flex items-start mt-12 w-full">
-              <div tw="flex items-center justify-center px-8 py-2 cursor-pointer border-2 border-color[var(--green)]">
-                <a href="https://t.me/ReBasedd">Join Telegram</a>
+            <div tw="w-full flex items-center justify-center lg:justify-start lg:items-start">
+              <div tw="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-12 ">
+                <div tw="max-width[220px] flex items-center justify-center px-8 py-2 cursor-pointer border-2 border-color[var(--green)]">
+                  <a target="_blank" href="https://t.me/ReBasedd">
+                    Join Telegram
+                  </a>
+                </div>
+                <div tw="max-width[220px] flex items-center justify-center px-8 py-2 cursor-pointer border-2 border-color[var(--green)]">
+                  <a
+                    target="_blank"
+                    href="https://pancakeswap.finance/swap#/swap?outputCurrency=0x0d10c53850017f4c101ec00a4bacb792cdb38f85"
+                  >
+                    Buy ReBased
+                  </a>
+                </div>
               </div>
             </div>
           </div>

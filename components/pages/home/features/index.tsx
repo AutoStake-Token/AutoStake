@@ -25,34 +25,42 @@ function Features() {
         {/* Tokenomics */}
         <div
           id="roadmap"
-          tw="flex flex-col items-center justify-center py-24 color[var(--redDark)]"
+          tw="flex flex-col items-center justify-center py-24 color[var(--greenDark)]"
         >
           <h2 tw="text-6xl color[var(--green)]">Tokenomics</h2>
 
           <div tw="flex flex-col items-center justify-start mt-16 mb-8">
-            <span tw="text-2xl lg:text-4xl">1,000,000,000,000,000</span>
+            <span tw="text-2xl lg:text-4xl color[var(--green)] ">
+              1,000,000,000,000,000
+            </span>
             <span tw="uppercase ml-6 text-2xl text-center">
               Starting supply pre “ReBase”
             </span>
           </div>
           <div tw="grid grid-cols-1">
             <div tw="flex items-center justify-start">
-              <span tw="text-4xl">5%</span>
-              <span tw="uppercase ml-6 text-2xl">Marketing</span>
+              <span tw="text-4xl color[var(--green)] ">5%</span>
+              <span tw="uppercase color[var(--greenDark)] ml-6 text-2xl">
+                Marketing
+              </span>
             </div>
             <div tw="flex items-center justify-start">
-              <span tw="text-4xl">5%</span>
-              <span tw="uppercase ml-6 text-2xl">Buyback</span>
+              <span tw="text-4xl color[var(--green)] ">5%</span>
+              <span tw="uppercase color[var(--greenDark)] ml-6 text-2xl">
+                Buyback
+              </span>
             </div>
             <div tw="flex items-center justify-start">
-              <span tw="text-4xl">5%</span>
-              <span tw="uppercase ml-6 text-2xl">Liquidity</span>
+              <span tw="text-4xl color[var(--green)] ">5%</span>
+              <span tw="uppercase color[var(--greenDark)] ml-6 text-2xl">
+                Liquidity
+              </span>
             </div>
           </div>
 
           <div tw="flex flex-col items-center mt-8">
-            <span tw="text-4xl ">35%</span>
-            <span tw="uppercase ml-6 text-2xl text-center">
+            <span tw="text-4xl  color[var(--green)] ">35%</span>
+            <span tw="uppercase color[var(--greenDark)] ml-6 text-2xl text-center">
               of the supply locked from private sale.
             </span>
           </div>
