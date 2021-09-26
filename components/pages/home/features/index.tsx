@@ -30,8 +30,8 @@ function Features() {
           <h2 tw="text-6xl color[var(--green)]">Tokenomics</h2>
 
           <div tw="flex flex-col items-center justify-start mt-16 mb-8">
-            <span tw="text-4xl">1,000,000,000,000,000</span>
-            <span tw="uppercase ml-6 text-2xl">
+            <span tw="text-2xl lg:text-4xl">1,000,000,000,000,000</span>
+            <span tw="uppercase ml-6 text-2xl text-center">
               Starting supply pre “ReBase”
             </span>
           </div>
@@ -50,9 +50,9 @@ function Features() {
             </div>
           </div>
 
-          <div tw="flex items-center mt-8">
-            <span tw="text-4xl">35%</span>
-            <span tw="uppercase ml-6 text-2xl">
+          <div tw="flex flex-col items-center mt-8">
+            <span tw="text-4xl ">35%</span>
+            <span tw="uppercase ml-6 text-2xl text-center">
               of the supply locked from private sale.
             </span>
           </div>
