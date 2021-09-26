@@ -3,14 +3,14 @@ export const navdata = [
         title: "Home",
         link: "/"
     },
-    {
-        title: "Stats",
-        link: "#stats"
-    },
-    {
-        title: "Whitelist",
-        link: "#whitelist"
-    },
+    // {
+    //     title: "Stats",
+    //     link: "#stats"
+    // },
+    // {
+    //     title: "Whitelist",
+    //     link: "#whitelist"
+    // },
     {
         title: "Roadmap",
         link: "#roadmap"
@@ -19,12 +19,12 @@ export const navdata = [
         title: "FAQ",
         link: "#faq"
     },
-    {
-        title: "Team",
-        link: "#team"
-    },
+    // {
+    //     title: "Team",
+    //     link: "#team"
+    // },
     {
         title: "Contact Us",
-        link: "mailto: autostakeofficial@protonmail.com "
+        link: "mailto: rebasedtoken@gmail.com"
     },
 ]

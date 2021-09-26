@@ -1,12 +1,17 @@
 export const footerdataLinks = [
+    
     {
-        title: "Telegram",
-        link: "https://www.t.me/autostakeofficial"
-    },
-    {
-        title: "Twitter",
-        link: "https://www.twitter.com/autostakeofficial"
-    }
+        title: "telegram",
+        link: "https://t.me/ReBasedd",
+      },
+      {
+        title: "twitter",
+        link: "https://twitter.com/RebasedToken",
+      },
+      {
+        title: "instagram",
+        link: "https://instagram.com/RebasedToken",
+      },
 ]
 
 
@@ -15,14 +20,7 @@ export const footerdata = [
         title: "Home",
         link: "#"
     },
-    {
-        title: "Stats",
-        link: "#stats"
-    },
-    {
-        title: "Whitelist",
-        link: "#whitelist"
-    },
+    
     {
         title: "Roadmap",
         link: "#roadmap"
@@ -30,10 +28,6 @@ export const footerdata = [
     {
         title: "FAQ",
         link: "#faq"
-    },
-    {
-        title: "Team",
-        link: "#team"
     },
     {
         title: "Contact Us",

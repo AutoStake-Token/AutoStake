@@ -1,23 +1,23 @@
 export const faqdata = [
     {
-        question: "What is AutoStake?",
-        answer: "AutoStake is a true holder rewarding token, like no other. Unlike other known tokens like Safemoon, which gives you more Safemoon tokens of each transaction, or HODL which gives you the BNBs of each transaction all these rewards are based on good or increased trading volume. As soon as the volume of trade decreases, the reward decreases, it simply does not happen at AutoStake. AutoStake rewards will increase, constantly, regardless of whether trading declines."
+        question: "What is an elastic supply token? ",
+        answer: "Elastic supply tokens have a changing circulating supply. The idea is that instead of the price fluctuating up and down, what changes is the total token supply through events called rebases. This is sometimes surprised to investors because the amount of token in their wallet will fluctuate. But don’t be alarmed. Focus on the market cap and total value of your wallet.",
     },
     {
-        question: "How does this work?",
-        answer: "Instead of picking tokens or BNBs from transactions like Safemoon or HODL do, AutoStake charges a fee which it instead places in to a AutoStake Depot, in most cases Cake Syrup Pool, or BNB / USD staking. And the profit from the AutoStake Depot generated will then be sent out to the holders. This means that AutoStake also protects itself from the risk of a death spiral, which HODL and similar Tokens end up in, ie reduced trade, reduced reward and even more people selling.Since the AutoStake reward will always increase, the holders were not harmed by someone selling, but only create more incentives to buy more and take more of the reward pool. "
+        question: "What is a Rebase?",
+        answer: "A rebase adjusts the total supply of tokens; even those that reside in investors wallets. Let’s say we have an elastic supply token that aims to achieve a value of 1 USD. If the price is below 1 USD, the rebase reduces the current supply, increasing the value of each token so the value always gets closer to the target price."
     },
-    {
-        question: "How do you get your reward?",
-        answer: "You do not need claim your rewards, your rewards are sent to your wallet where you keep your AutoStake Tokens. So there is no risk that you will miss your dividend. The distribution takes place in different instances depending on the AutoStake Depot."
-    },
-    {
-        question: "How do you buy AutoStake?",
-        answer: "You can buy AutoStake on PancakeSwap using our Contract Address",
-    },
-    {
-        question: "Is the contract audited?",
-        answer: "Yes, the contract is audited by Techrate.",
-        link: ""
-    },
+    // {
+    //     question: "How do you get your reward?",
+    //     answer: "You do not need claim your rewards, your rewards are sent to your wallet where you keep your AutoStake Tokens. So there is no risk that you will miss your dividend. The distribution takes place in different instances depending on the AutoStake Depot."
+    // },
+    // {
+    //     question: "How do you buy AutoStake?",
+    //     answer: "You can buy AutoStake on PancakeSwap using our Contract Address",
+    // },
+    // {
+    //     question: "Is the contract audited?",
+    //     answer: "Yes, the contract is audited by Techrate.",
+    //     link: ""
+    // },
 ]

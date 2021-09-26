@@ -41,26 +41,26 @@
 //     },
 // ]
 
-
 export const roadmapdata = [
-    {
-        month: "July",
-        year: "2021",
-        events: [
-            " Website Launch  ",
-            "Marketing Campaign",
-            "Whitelist Shill Competition",
-            "Whitelist Sale"
-        ]
-    },
-    {
-        month: "July",
-        year: "2021",
-        events: [
-            "Presale",
-            "Launch",
-            "Marketing Campaign",
-            "Autostake Depot Expansion"
-        ]
-    }
-]
+  {
+    month: "Phase 1",
+    year: "2021",
+    events: [
+      "Launch",
+      "Coin Gecko",
+      "Coin Market Cap",
+      "Marketing campaign following listing of CMC and CG.",
+      "10 Million Dollar Market Cap.",
+    ],
+  },
+  {
+    month: "Phase 2",
+    year: "2021",
+    events: [
+      "Airdrop Campaign to strengthen existing holders wallets.",
+      " Coin Market Calendar Ads",
+      "Hackernoon Ads",
+      "20 Million Dollar Market Cap Giveaway of 5,000 BUSD.",
+    ],
+  },
+];

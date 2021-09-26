@@ -1,38 +1,35 @@
-import Head from 'next/head'
-import tw from 'twin.macro'
-import Image from 'next/image'
+import Head from "next/head";
+import tw from "twin.macro";
+import Image from "next/image";
 
-
-import Hero from '../components/pages/home/hero'
-import Features from '../components/pages/home/features'
-import RoadMap from '../components/pages/home/roadmap'
-import Team from '../components/pages/home/team'
-import Tokenomics from '../components/pages/home/tokenomics'
-import Faq from '../components/pages/home/faq'
-import Footer from '../components/footer'
-import Nav from '../components/nav'
+import Hero from "../components/pages/home/hero";
+import Features from "../components/pages/home/features";
+import RoadMap from "../components/pages/home/roadmap";
+import Team from "../components/pages/home/team";
+import Tokenomics from "../components/pages/home/tokenomics";
+import Faq from "../components/pages/home/faq";
+import Footer from "../components/footer";
+import Nav from "../components/nav";
 
 export default function Home() {
   return (
     <div tw="  font-family[SourceCode] max-w-full  bg-black bg-opacity-40">
       <Head>
-        <title>Auto Stake</title>
-        <meta name="description" content="Autostake" />
+        <title>ReBased Token</title>
+        <meta name="description" content="ReBased token" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main >
+      <main>
         <Nav />
         <Hero />
         <Features />
-        <Tokenomics />
+        {/* <Tokenomics /> */}
         <RoadMap />
         <Faq />
-        <Team />
+        {/* <Team /> */}
         <Footer />
       </main>
-
-
     </div>
-  )
+  );
 }
