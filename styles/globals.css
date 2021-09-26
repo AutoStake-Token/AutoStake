@@ -8,13 +8,13 @@ body {
   width: 100%;
 }
 :root {
-  --green: #7fc17f;
-  --greenDark: #c3ffc3;
+  --green: #00ff85;
+  --greenDark: #5effb1;
   /* --greenDark: #3c5a3c; */
   --white: #dbd6c6;
   --whiteDark: #9f9d96;
-  --red: #47c458;
-  --redDark: #8feeb6;
+  --red: #00ff85;
+  --redDark: #5effb1;
 }
 a {
   color: inherit;
